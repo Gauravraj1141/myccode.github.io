@@ -1,0 +1,109 @@
+/* isme hame width :1337px ke bad sare changes dekhne ko milenge
+ */
+
+/* navbar section */
+#navbar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar ul {
+    justify-content: center;
+    margin: 22px 1px;
+}
+
+#navbar ul li a {
+    margin: 23px 3px ;
+    padding: 0px 3px ;
+    font-size: 1rem ;
+
+}
+
+
+
+/* Home section */
+#Home {
+    height: 550px ;
+}
+
+#Home::before {
+    height: 694px ;
+}
+
+#Home-Heading {
+
+    font-size: 2rem ;
+
+}
+
+#Home p {
+    font-size: 1rem ;
+}
+
+
+
+/* services section */
+
+
+#services {
+    display: flex;
+    flex-direction: column;
+}
+
+#services .box {
+    margin: 42px 2px ;
+    height: 448px ;
+}
+
+#services .box img {
+    width: 195px ;
+    height: 178px ;
+}
+
+
+/* clients section */
+#clients {
+    height: 511px ;
+}
+
+#clients::before {
+    height: 472px ;
+}
+
+.client-img {
+    padding: 12px 10px ;
+    margin: 10px ;
+}
+
+.logo {
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 3rem ;
+}
+
+.heading-size {
+    font-size: 2rem ;
+}
+
+
+
+
+
+/* contact section */
+.c-box {
+    width: 16rem ;
+}
+
+
+/* Footer section */
+
+
+
+
+
+/* utility section */
